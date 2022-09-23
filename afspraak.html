@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tandartsafspraak</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <h1>Tandartsafspraak</h1>
+  <p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam praesentium hic, atque fugit vitae aspernatur quos quod pariatur numquam at error accusantium beatae sed, reiciendis libero reprehenderit dolorem cum mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quisquam error reiciendis consequuntur natus nesciunt amet nulla rem architecto esse? Laborum amet facere placeat minima nisi tempora quae id nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sequi omnis nesciunt adipisci culpa eaque, porro, pariatur aspernatur repudiandae natus animi est? Facere, molestiae? Fuga, fugit. Nulla voluptate nam suscipit?</p>
+  
+  <img src="https://www.tandartsoranjebuurtassen.nl/images/2.jpg" alt="tandarts" width="300" height="170">
+  <img src="https://www.rtlnieuws.nl/sites/default/files/content/images/2020/12/30/tandarts.jpg?itok=6iXDpQEM&offsetX=0&offsetY=23&cropWidth=1023&cropHeight=575&width=2048&height=1152&impolicy=dynamic" alt="tandarts" width="300">
+  <img src="https://www.tandartspraktijkweresteijn.nl/previews/2021/6/28/media_972_592424_w800_h460_crop.jpg" alt="tandarts" width="300" height="170">
+
+  <form action="https://formspree.io/f/mvoyprrg" method="post">
+    <table>
+      <tr>
+        <th>
+          Persoonlijke gegevens
+        </th>
+        <th></th>
+        <th>Beschrijving van de klachten</th>
+        <th>Toelichting van de klachten</th>
+      </tr>
+
+      <tr>
+        <td>Voornaam:</td>
+        <td><input  type="text" name="Voornaam"></td>
+        <td><input type="radio" name="Tand- of kiespijn" value="Ja"> Tand- of kiespijn</td>
+        <td><textarea name="Beschrijving klacht" maxlength="1500" placeholder="Beschrijf uw klacht"></textarea></td>
+      </tr>
+
+      <tr>
+        <td>Achternaam:</td>
+        <td><input type="text" name="Achternaam"></td>
+        <td><input type="radio" name="Geïrriteerd of ontstoken tandvlees" value="Ja"> Geïrriteerd of ontstoken tandvlees</td>
+        <td>Plan uw afspraak: <input name="Datum afspraak" type="date" max="2080-12-31"></td>
+      </tr>
+
+      <tr>
+        <td>Adres:</td>
+        <td><input type="text" name="Adres"></td>
+        <td><input type="radio" name="Pijn aan de kaak" value="Ja"> Pijn aan de kaak</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>Telefoon thuis</td>
+        <td><input type="text" name="Telefoon thuis"></td>
+        <td><input type="radio" name="Gaatjes" value="Ja"> Gaatjes</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>Mobiele telefoon</td>
+        <td><input type="text" name="Mobiele telefoon"></td>
+        <td><input type="radio" name="Tanderosie" value="Ja"> Tanderosie</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>Emailadres</td>
+        <td><input type="text" name="Emailadres"></td>
+        <td><input type="radio" name="Tandsteen" value="Ja"> Tandsteen</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>Geboorteplaats</td>
+        <td><input type="text" name="Geboorteplaats"></td>
+        <td><input type="radio" name="Zenuwpijn" value="Ja"> Zenuwpijn</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>Geboortedatum</td>
+        <td><input type="text" name="Geboortedatum"></td>
+        <td><input type="radio" name="Slechte adem" value="Ja"> Slechte adem</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>Postcode</td>
+        <td><input type="text" name="Postcode"></td>
+        <td>Foto van uw klacht:</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td></td>
+        <td><input type="file" name="Foto klacht"></td>
+        <td><input onclick="clearpage()" id="submit" type="Submit" name="submit"> <input type="reset" value="Reset" onClick="window.location.reload()"></td>
+      </tr>
+
+    </table>
+  </form>
+
+</body>
+</html>

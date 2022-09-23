@@ -1,0 +1,16 @@
+table, th, tr, td{
+    border: 3px solid;
+    margin: auto;
+    margin-top: 20px;
+}
+textarea{
+    height: 16px;
+    width: 97%;
+}
+body{
+    text-align: center;
+}
+
+p{
+    padding-bottom: 10px;
+}
